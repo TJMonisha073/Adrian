@@ -15,7 +15,7 @@ body {
 /* Nav Section Start */
 nav {
     width: 100%;
-    height: 100px;
+    height: 80px;
 }
 .nab_area {
     width: 90%;
@@ -25,13 +25,13 @@ nav {
     width: 15%;
     float: left;
     right: clear;
-    margin: 33px 0px;
+    margin: 22px 0px;
 }
 .nav_bar {
     width: 73%;
     float: left;
     right: clear;
-    margin: 26px 0px;
+    margin: 16px 0px;
     text-align: center;
 }
 ul {
@@ -57,7 +57,7 @@ ul {
     width: 12%;
     float: left;
     right: clear;
-    margin: 32px 0px;
+    margin: 22px 0px;
 }
 .nav_icon i {
     font-size: 1.6rem;
@@ -79,5 +79,227 @@ header {
     background: url(../photos/slideshow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+section.header_inner {
+    width: 40%;
+    float: right;
+    margin: 125px 0px;
+    line-height: 1;
+}
+.header_inner p {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #212529;
+    margin: 0px;
+}
+.header_inner h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 9rem;
+    color: #fb5c42;
+    margin: 0px;
+    padding: 20px 0px;
+}
+.header_inner h1 span {
+    color: #000;
+}      
+.header_inner a {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #fff;
+    text-decoration: none;
+    background: #fb5c42;
+    padding: 20px 40px;
+    display: inline-block;
+    margin: 50px 0px 0px 25px;
+    position: relative;
+}       
+.header_inner a::before {
+    content: "";
+    position: absolute;
+    border: 2px solid #fb5c42;
+    top: -12px;
+    left: -12px;
+    width: 100%;
+    height: 100%;
+}
+.left-arrow {
+    width: 5%;
+    height: 5%;
+    background: #fb5c42;
+    padding: 20px 2px 12px 2px;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    clear: right;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    z-index: -1;
+    transition: 0.10s linear;
+}
+.right-arrow {
+    width: 5%;
+    height: 5%;
+    background: #fb5c42;
+    padding: 20px 2px 12px 2px;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    float: right;
+    clear: left;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    z-index: -1;
+    transition: 0.10s linear;
+}
+header:hover .right-arrow {
+    z-index: 1;
+}
+header:hover .left-arrow {
+    z-index: 1;
 }
 /* Header Section End */
+/* Discount Section Start */
+.discount {
+    width: 100%;
+    height: 250px;
+}
+.discount_inner {
+    width: 90%;
+    height: 100%;
+    margin: 50px auto;
+}
+.discount_card {
+    width: 27%;
+    float: left;
+    clear: right;
+    background: #F0F1F5;
+    padding: 20px 40px 0px 0px;
+    margin-right: 40px;
+    position: relative;
+}
+.discount_card:last-child {
+    margin-right: 0px;
+}
+.dis-image {
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.dis-image img{
+    width: 100%;
+    height: auto;
+}
+.dis-info {
+    position: absolute;
+    right: 45px;
+    top: 50px;
+}
+.dis-info p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #757575;
+    margin: 0px;
+}
+.dis-info h4 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #000;
+    margin: 0px;
+}
+.dis-info a {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fb5c42;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid #fb5c42;
+    margin-top: 20px;
+}
+/* Discount Section End */
+/* Products Section Start */
+.products {
+    width: 100%;
+    height: 600px;
+}
+.product_inner {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+}
+.productTitle {
+    width: 30%;
+    margin: 0px auto;
+    text-align: center;
+}
+.productTitle h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3.8rem;
+    color: #000;
+    margin: 0px;
+}
+.productTitle p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #757575;
+    margin: 0px;
+}
+.product_wrap {
+    margin: 50px 0px;
+}
+.singelProduct {
+    width: 23%;
+    height: auto;
+    float: left;
+    clear: right;
+    text-align: center;
+    margin-right: 30px;
+    position: relative;
+}
+.singelProduct:last-child {
+    margin-right: 0px;
+}
+.singelProduct img {
+    width: 100%;
+}
+.singelProduct h4 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #000;
+    margin: 15px 0px 0px 0px;
+}
+.singelProduct p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #777;
+    margin: 0px;
+}
+.product-icon {
+    position: absolute;
+    bottom: 125px;
+    left: 31%;
+}
+.product-icon i {
+    background: #fb5c42;
+    padding: 16px;
+    color: #fff;
+    font-size: 1.6rem;
+    border-radius: 50%;
+}
+/* Products Section End */

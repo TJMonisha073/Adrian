@@ -275,7 +275,7 @@ header:hover .left-arrow {
 /* Products Section Start */
 .products {
     width: 100%;
-    height: 1150px;
+    height: 1100px;
 }
 
 .product_inner {
@@ -412,7 +412,7 @@ header:hover .left-arrow {
 /* Ads Section Start */
 .ads-section {
     width: 100%;
-    height: 550px;
+    height: 500px;
     background: url("../photos/counter.jpg") 0% 0% / cover no-repeat;
     margin: 60px 0px;
 }
@@ -427,7 +427,7 @@ header:hover .left-arrow {
     width: 50%;
     float: right;
     line-height: 1;
-    margin: 70px 0px;
+    margin: 50px 0px;
 }
 
 .ads_content h3 {
@@ -453,7 +453,7 @@ header:hover .left-arrow {
     font-size: 2.2rem;
     font-weight: 400;
     color: rgb(255, 255, 255);
-    margin: 30px 0px 50px;
+    margin: 25px 0px 40px;
 }
 
 .ads_content p {
@@ -473,7 +473,7 @@ header:hover .left-arrow {
     background: rgb(251, 92, 66);
     padding: 25px 50px;
     display: inline-block;
-    margin: 60px 0px 0px;
+    margin: 50px 0px 0px;
     transition: all 0.5s linear 0s;
 }
 
@@ -484,7 +484,7 @@ header:hover .left-arrow {
 /* Product List Section start */
 .products-list {
     width: 100%;
-    height: 650px;
+    height: 630px;
     border-bottom: 2px solid #eee;
 }
 
@@ -495,7 +495,7 @@ header:hover .left-arrow {
 }
 
 .quality-product {
-    width: 32%;
+    width: 35%;
     float: left;
     clear: right;
     margin-right: 50px;
@@ -506,7 +506,7 @@ header:hover .left-arrow {
 }
 
 .best-sellers {
-    width: 30%;
+    width: 26%;
     float: left;
     clear: right;
     margin-right: 50px;
@@ -650,3 +650,144 @@ header:hover .left-arrow {
     margin: 0px;
 }    
 /* Features Section End  */
+/* Big Footer Section Start */
+.big-footer {
+    width: 100%;
+    height: 235px;
+    background: #F9F9F9;
+    padding: 80px 0px;
+}
+.big-footer-area {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+}
+.flogo {
+    width: 30%;
+    float: left;
+    clear: right;
+    margin-right: 145px;
+}
+.flogo h4 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(117, 117, 117);
+    line-height: 1.9;
+    margin: 20px 0px;
+}    
+.flogo p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    line-height: 1.6;
+    margin: 0px;
+}    
+.flogo p span {
+    font-weight: 700;
+}
+.category {
+    width: 16%;
+    float: left;
+    clear: right;
+}
+.category h3 {
+    font-family: Catamaran, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    line-height: 1;
+    padding-bottom: 25px;
+}
+.category ul {
+    margin: 0px;
+    padding: 0px;
+}
+.category ul li {
+    list-style: none;
+}
+.category ul li a {
+    font-family: Catamaran, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #757575;
+    text-decoration: none;
+    margin: 0px;
+    line-height: 2.5;
+    padding-bottom: 10px;
+}
+.useful-link {
+    width: 16%;
+    float: left;
+    clear: right;
+}
+.useful-link h3 {
+    font-family: Catamaran, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    line-height: 1;
+    padding-bottom: 25px;
+}
+.useful-link ul {
+    margin: 0px;
+    padding: 0px;
+}
+.useful-link ul li {
+    list-style: none;
+}
+.useful-link ul li a {
+    font-family: Catamaran, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #757575;
+    text-decoration: none;
+    margin: 0px;
+    line-height: 2.5;
+    padding-bottom: 10px;
+}
+.opening-hours {
+    width: 25%;
+    float: left;
+    clear: right;
+}
+.opening-hours h3 {
+    font-family: Catamaran, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    line-height: 1;
+    padding-bottom: 25px;
+}
+.opening-hours ul {
+    margin: 0px;
+    padding: 0px;
+}
+.opening-hours ul li {
+    list-style: none;
+    font-family: Catamaran, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #212529;
+    text-decoration: none;
+    margin: 0px;
+    line-height: 2.2;
+    padding-bottom: 10px;
+}
+.opening-hours ul li span {
+    float: right;
+}
+.opening-hours h4 {
+    font-family: Catamaran, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    line-height: 1;
+    padding: 25px 0px;
+}
+/* Big Footer Section End */
